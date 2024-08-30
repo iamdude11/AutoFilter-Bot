@@ -1854,7 +1854,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @JISSHU_BOTS\n👨‍💻 @IM_JISSHU\n👨‍💻 @JOYBOY_ZORO\n👨‍💻 @Mr_SPIDY\n👨‍💻 @CoderluffyTG\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
+        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @MrXeonTG\n👨‍💻 @Xeonflix\n👨‍💻 @JOYBOY_ZORO\n👨‍💻 @Mr_SPIDY\n👨‍💻 @CoderluffyTG\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[

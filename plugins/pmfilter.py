@@ -1773,8 +1773,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• Bᴏᴛ uᴘᴅᴀᴛᴇs •', url="t.me/XeonBots"),
             InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx •', url="t.me/xeonflixmovies")
        ],[
-            InlineKeyboardButton('• Tᴠ/Wᴇʙ sᴇʀɪᴇs •', url="https://t.me/SeriesXeonFlix"),
-            InlineKeyboardButton('• Aɴɪᴍᴇ & ʜᴇɴᴛᴀɪ •', url="https://t.me/TeamXeon")
+            InlineKeyboardButton('• Aɴɪᴍᴇs •', url="https://t.me/Anime_Xeon"),
+            InlineKeyboardButton('• Tᴠ/Wᴇʙ sᴇʀɪᴇs •', url="https://t.me/SeriesXeonFlix")
+       ],[
+            InlineKeyboardButton('• Aɴɪᴍᴇ ɪɴᴅᴇx •', url="t.me/TeamXeon"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx2 •', url="t.me/X265HevcMovies01")
+       ],[
+            InlineKeyboardButton('• ʜᴇɴᴛᴀɪ •', url="https://t.me/Hentai_Xeon"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx3 •', url="https://t.me/X265HevcMovies02")
        ],[
             InlineKeyboardButton('• 18+ Aᴅuʟᴛ ᴄʜᴀɴɴᴇʟs •', url="https://t.me/XflixAdult")
        ],[ 

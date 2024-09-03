@@ -1882,7 +1882,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rendr":
         await query.answer("⚡️ ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️\n\n✇ ᴄᴘᴜ : 2.6\n𖤍 ʀᴀᴍ : 58.8\n〄 ᴛᴏᴛᴀʟ ᴅɪsᴋ : 21.5 GiB\n✿ ᴜsᴇᴅ sᴘᴀᴄᴇ : 827.21 MiB (4.0%)\n✫ ғʀᴇᴇ sᴘᴀᴄᴇ : 19.58 GiB\n♡ ᴅᴀᴛᴀ ᴛʀᴀꜰɪᴄs ●●●●◌◌◌◌◌◌\n✪ ᴜᴘᴛɪᴍᴇ ●●●●●●●◌◌◌ 🛰\n\nᴠ4.4 [sᴛᴀʙʟᴇ] """, show_alert=True)
 
-    elif query.data == "Source":
+    elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('Repo', url='https://github.com/Jisshubot/Jisshu-Filter-Bot')
         ],[

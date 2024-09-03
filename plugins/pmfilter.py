@@ -1865,13 +1865,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
         ],[
             InlineKeyboardButton('• ᴏᴡɴᴇʀ •', user_id=int(821215952)),
-            InlineKeyboardButton('• sᴏᴜʀᴄᴇ •', callback_data='source')
+            InlineKeyboardButton('• ᴄʀᴇᴅɪᴛs •', callback_data='credit')
         ],[
             InlineKeyboardButton('🛰️ ꜱᴇʀᴠᴇʀ ɪɴғᴏ ☁️', callback_data='rendr'),
             InlineKeyboardButton('• ꜱᴜᴘᴘᴏʀᴛ •', callback_data='group_info')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
-            InlineKeyboardButton('• sᴏᴜʀᴄᴇ •', callback_data='source')
+            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='source')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(

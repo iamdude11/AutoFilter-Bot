@@ -1778,33 +1778,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.OTHER_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "group_info":
-        buttons = [[
-            InlineKeyboardButton('✫ ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ✫', url="https://t.me/Xeonflix")
-       ],[
-            InlineKeyboardButton('• Bᴏᴛ uᴘᴅᴀᴛᴇs •', url="t.me/XeonBots"),
-            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx •', url="t.me/xeonflixmovies")
-       ],[
-            InlineKeyboardButton('• Aɴɪᴍᴇs •', url="https://t.me/Anime_Xeon"),
-            InlineKeyboardButton('• Tᴠ/Wᴇʙ sᴇʀɪᴇs •', url="https://t.me/SeriesXeonFlix")
-       ],[
-            InlineKeyboardButton('• Aɴɪᴍᴇ ɪɴᴅᴇx •', url="t.me/TeamXeon"),
-            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx2 •', url="t.me/X265HevcMovies01")
-       ],[
-            InlineKeyboardButton('• ʜᴇɴᴛᴀɪ •', url="https://t.me/Hentai_Xeon"),
-            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx3 •', url="https://t.me/X265HevcMovies02")
-       ],[
-            InlineKeyboardButton('• 18+ Aᴅuʟᴛ ᴄʜᴀɴɴᴇʟs •', url="https://t.me/XflixAdult")
-       ],[ 
-            InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
-        ]]
-        reply_markup = InlinekeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.CHANNELS.format(query.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
+            parse_mode=enums.ParseMode.HTML 
         )
 
     elif query.data == "users":
@@ -1889,6 +1863,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.SOURCE_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        elif query.data == "group_info":
+        buttons = [[
+            InlineKeyboardButton('✫ ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ✫', url="https://t.me/Xeonflix")
+       ],[
+            InlineKeyboardButton('• Bᴏᴛ uᴘᴅᴀᴛᴇs •', url="t.me/XeonBots"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx •', url="t.me/xeonflixmovies")
+       ],[
+            InlineKeyboardButton('• Aɴɪᴍᴇs •', url="https://t.me/Anime_Xeon"),
+            InlineKeyboardButton('• Tᴠ/Wᴇʙ sᴇʀɪᴇs •', url="https://t.me/SeriesXeonFlix")
+       ],[
+            InlineKeyboardButton('• Aɴɪᴍᴇ ɪɴᴅᴇx •', url="t.me/TeamXeon"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx2 •', url="t.me/X265HevcMovies01")
+       ],[
+            InlineKeyboardButton('• ʜᴇɴᴛᴀɪ •', url="https://t.me/Hentai_Xeon"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx3 •', url="https://t.me/X265HevcMovies02")
+       ],[
+            InlineKeyboardButton('• 18+ Aᴅuʟᴛ ᴄʜᴀɴɴᴇʟs •', url="https://t.me/XflixAdult")
+       ],[ 
+            InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
+        ]]
+        reply_markup = InlinekeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.CHANNELS.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )

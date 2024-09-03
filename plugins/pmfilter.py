@@ -1886,9 +1886,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Repo', url='https://github.com/Jisshubot/Jisshu-Filter-Bot')
         ],[
-            InlineKeyboardButton('• 𝗕𝗮𝗰𝗸 •', callback_data='about'),
-            InlineKeyboardButton('• 𝗖𝗹𝗼𝘀𝗲 •', callback_data='close_data')
-        ]]
+            InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="about"),
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='group_info')
+          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.SOURCE_TXT,

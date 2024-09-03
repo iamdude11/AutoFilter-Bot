@@ -1782,7 +1782,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
 
     
-    elif query.data == "channels":
+    elif query.data == "group_info":
         buttons = [[
             InlineKeyboardButton('✫ ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ✫', url="https://t.me/Xeonflix")
        ],[
@@ -1868,7 +1868,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• sᴏᴜʀᴄᴇ •', callback_data='source')
         ],[
             InlineKeyboardButton('🛰️ ꜱᴇʀᴠᴇʀ ɪɴғᴏ ☁️', callback_data='rendr'),
-            InlineKeyboardButton ('• ꜱᴜᴘᴘᴏʀᴛ •', callback_data='channels')
+            InlineKeyboardButton('• ꜱᴜᴘᴘᴏʀᴛ •', callback_data='group_info')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]

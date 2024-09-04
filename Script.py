@@ -15,6 +15,15 @@ class script(object):
 ◆ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 ◆ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/xeonflix">ᴠᴘs</a>
 ◆ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : ᴠ4.4.1 [ᴀᴅᴠᴀɴᴄᴇ ғᴇᴀᴛᴜʀᴇs].</b>"""
+
+    CREDIT_INFO = """
+<b>⍟───[ ᴄʀᴇᴅɪᴛꜱ ]───⍟
+    
+➥ ᴏᴡɴᴇʀ : <a href='t.me/MrXeonTG'>ᴍʀ xᴇᴏɴ</a>
+➥ ᴛʜᴀɴᴋꜱ ᴛᴏ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>​
+➥ ᴄᴏᴅᴇᴅ ʙʏ : <a href='t.me/MR_JISSHU'>ᴊɪꜱsʜᴜ</a>
+➥ ғᴇᴀᴛᴜʀᴇꜱ ᴀᴅᴅᴇᴅ ʙʏ : <a href='t.me/sewxiy'>sᴜʙᴀʀᴜ</a>
+➥ ᴇᴅɪᴛᴇᴅ ʙʏ : <a href='t.me/MrXeonTG'>xᴇᴏɴ</a></b>"""
     
     CHANNELS = """
 <b>๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴜs.

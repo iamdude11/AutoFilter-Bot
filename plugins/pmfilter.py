@@ -1825,7 +1825,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• ɢʀᴏᴜᴘ •', callback_data='group')
         ], [
             InlineKeyboardButton('• ᴜꜱᴇʀ •', callback_data='premium_info'),
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', callback_data='group_info')
+            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', callback_data="group_info")
         ], [
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]

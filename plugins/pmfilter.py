@@ -1901,31 +1901,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         
     elif query.data == "credit":
-        buttons = [[
-            InlineKeyboardButton('✫ ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ✫', url="https://t.me/Xeonflix")
-       ],[
-            InlineKeyboardButton('• Bᴏᴛ uᴘᴅᴀᴛᴇs •', url="t.me/XeonBots"),
-            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx •', url="t.me/xeonflixmovies")
-       ],[
-            InlineKeyboardButton('• Aɴɪᴍᴇs •', url="https://t.me/Anime_Xeon"),
-            InlineKeyboardButton('• Tᴠ/Wᴇʙ sᴇʀɪᴇs •', url="https://t.me/SeriesXeonFlix")
-       ],[
-            InlineKeyboardButton('• Aɴɪᴍᴇ ɪɴᴅᴇx •', url="t.me/TeamXeon"),
-            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx2 •', url="t.me/X265HevcMovies01")
-       ],[
-            InlineKeyboardButton('• ʜᴇɴᴛᴀɪ •', url="https://t.me/Hentai_Xeon"),
-            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx3 •', url="https://t.me/X265HevcMovies02")
-       ],[
-            InlineKeyboardButton('• 18+ Aᴅuʟᴛ ᴄʜᴀɴɴᴇʟs •', url="https://t.me/XflixAdult")
-       ],[ 
-            InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='about')
-        ]]
+            btn = [[
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="about"),
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/MrXeonTG")
+                  ]]
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
             InputMediaPhoto(random.choice(PICS))
         )
-        reply_markup = InlineKeyboardMarkup(buttons)
+        reply_markup = InlineKeyboardMarkup(btn)
         await query.message.edit_text(
             text=script.CREDIT_INFO,
             reply_markup=reply_markup,

@@ -1899,6 +1899,38 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        
+    elif query.data == "credit":
+        buttons = [[
+            InlineKeyboardButton('✫ ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ✫', url="https://t.me/Xeonflix")
+       ],[
+            InlineKeyboardButton('• Bᴏᴛ uᴘᴅᴀᴛᴇs •', url="t.me/XeonBots"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx •', url="t.me/xeonflixmovies")
+       ],[
+            InlineKeyboardButton('• Aɴɪᴍᴇs •', url="https://t.me/Anime_Xeon"),
+            InlineKeyboardButton('• Tᴠ/Wᴇʙ sᴇʀɪᴇs •', url="https://t.me/SeriesXeonFlix")
+       ],[
+            InlineKeyboardButton('• Aɴɪᴍᴇ ɪɴᴅᴇx •', url="t.me/TeamXeon"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx2 •', url="t.me/X265HevcMovies01")
+       ],[
+            InlineKeyboardButton('• ʜᴇɴᴛᴀɪ •', url="https://t.me/Hentai_Xeon"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx3 •', url="https://t.me/X265HevcMovies02")
+       ],[
+            InlineKeyboardButton('• 18+ Aᴅuʟᴛ ᴄʜᴀɴɴᴇʟs •', url="https://t.me/XflixAdult")
+       ],[ 
+            InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='about')
+        ]]
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.CREDIT_INFO,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
 
     elif query.data == "ref_point":
         await query.answer(f'You Have: {referdb.get_refer_points(query.from_user.id)} Refferal points.', show_alert=True)

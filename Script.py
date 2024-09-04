@@ -238,12 +238,10 @@ Nᴀᴍᴇ : {}
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
   
-    SOURCE_TXT = """<b>
-NOTE:
-- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/JISSHU_BOTS">𝗝𝗶𝘀𝘀𝗵𝘂-𝗙𝗶𝗹𝘁𝗲𝗿-𝗕𝗼𝘁</a></blockquote>
-
-developer : Mr.Jisshu
-</b>""" 
+    SOURCE_TXT = """<b>ɴᴏᴛᴇ:
+⚠️ ᴛʜɪꜱ ɴᴏᴛ ᴀɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ
+- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ - <a href="https://t.me/+y6mFtiS5JQFkNThl">ʜᴇʀᴇ</a>
+ᴀʟʟ ᴄʀᴇᴅɪᴛs - <a href="https://t.me/MR_JISSHU">ᴛʜɪs ᴘᴇʀsᴏɴ</a></b>""" 
 
     
     CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/Jisshu_Originals">𝙅𝙞𝙨𝙨𝙝𝙪 𝙊𝙧𝙞𝙜𝙞𝙣𝙖𝙡𝙨</a>」</b>"""

@@ -8,8 +8,8 @@ class script(object):
 ᴡᴇ ʜᴀᴠᴇ ᴅᴇᴠɪᴅᴇᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ᴀɴᴅ ʙᴏᴛ ᴜꜱᴇʀꜱ.</b>"""
 
     ABOUT_TXT = """
-<b>◆ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Adv3_Obot">ʟᴜᴄʏ ʙᴏᴛ</a>
-◆ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/MrXeonTG">мɪкєʏ</a>
+<b>◆ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Adv3_Obot">Nᴀɴᴄʏ ʙᴏᴛ</a>
+◆ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/MrXeonTG">ᴍʀ xᴇᴏɴ</a>
 ◆ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
 ◆ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
 ◆ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
@@ -250,6 +250,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 ⚠️ ᴛʜɪꜱ ɴᴏᴛ ᴀɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ
 - ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ - <a href="https://t.me/+y6mFtiS5JQFkNThl">ʜᴇʀᴇ</a>
+
 ᴀʟʟ ᴄʀᴇᴅɪᴛs - <a href="https://t.me/MR_JISSHU">ᴛʜɪs ᴘᴇʀsᴏɴ</a></b>""" 
 
     

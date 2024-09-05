@@ -170,7 +170,7 @@ async def start(client, message):
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 🌑"
         m=await message.reply_sticker("CAACAgUAAxkBAAKSCmbV0chWexKBEHITxNEEsAQWkdnVAAIyFgACHzsJVdVAFj4K4-BGHgQ") 
-        await asyncio.sleep(2)
+        await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -227,7 +227,7 @@ async def start(client, message):
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 🌑"
         m=await message.reply_sticker("CAACAgUAAxkBAAKSCmbV0chWexKBEHITxNEEsAQWkdnVAAIyFgACHzsJVdVAFj4K4-BGHgQ") 
-        await asyncio.sleep(2)
+        await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),

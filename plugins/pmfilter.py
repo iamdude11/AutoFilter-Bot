@@ -1809,11 +1809,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='help')
         ]]
-          await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ADMIC_TXT.format(query.from_user.mention),

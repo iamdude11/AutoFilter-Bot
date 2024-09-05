@@ -254,15 +254,19 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 ᴀʟʟ ᴄʀᴇᴅɪᴛs - <a href="https://t.me/MR_JISSHU">ᴛʜɪs ᴘᴇʀsᴏɴ</a></b>""" 
 
     
-    CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/Jisshu_Originals">𝙅𝙞𝙨𝙨𝙝𝙪 𝙊𝙧𝙞𝙜𝙞𝙣𝙖𝙡𝙨</a>」</b>"""
+    CAPTION = """<b><a href=https://t.me/Xeonflix><b>{file_name}</b></a></b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
+<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
 
-🍿 Title: {title}
-🎃 Genres: {genres}
-📆 Year: {year}
-⭐ Rating: {rating} / 10</b>
+🎭 ɢᴇɴʀᴇs : {genres}
+🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+
+📆 ʏᴇᴀʀ : {release_date}
+🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
+🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
+
+©{message.chat.title}</b>
 """
     
 
@@ -274,7 +278,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.2 [ Sᴛᴀʙʟᴇ ]</code>
 
-Bʏ @JISSHU_BOTS</b>"""
+Bʏ @XeonFlix</b>"""
 
     LOGO = """
 
@@ -331,11 +335,11 @@ BOT WORKING PROPERLY THANKS MR_JISSHU 🔥"""
  ❏ 𝟷𝟿𝟿₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 𝟹𝟼𝟶₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
-🆔 ᴜᴘɪ ɪᴅ ➩ <code>jishan@fam</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+🆔 ᴜᴘɪ ɪᴅ ➩ <code>madhudetamalloor@okaxis</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
-🏷️ <a href='https://t.me/jisshu_Premium_proof'>ᴘʀᴇᴍɪᴜᴍ ᴘʀᴏᴏꜰ</a>
+🏷️ <a href='https://t.me/Xeonflixadmin_bot'>ᴅᴍ</a>
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 ‼️ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.

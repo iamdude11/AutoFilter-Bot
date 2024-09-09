@@ -337,7 +337,7 @@ async def start(client, message):
                             ],
                             [
                                 InlineKeyboardButton("⚡ 𝙰𝙳𝙳 𝙼𝙴 ⚡", url="http://t.me/Adv3_Obot?startgroup=true"),
-                                InlineKeyboardButton("💥 𝚃𝚑𝚊𝚗𝚔𝚜 💥", url="tg://settings"), #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton("💥 𝚃𝚑𝚊𝚗𝚔𝚜 💥", url="tg://settings") #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -357,7 +357,7 @@ async def start(client, message):
                             ],
                             [
                                 InlineKeyboardButton("⚡ 𝙰𝙳𝙳 𝙼𝙴 ⚡", url="http://t.me/Adv3_Obot?startgroup=true"),
-                                InlineKeyboardButton("💥 𝚃𝚑𝚊𝚗𝚔𝚜 💥", url="tg://settings"), #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton("💥 𝚃𝚑𝚊𝚗𝚔𝚜 💥", url="tg://settings") #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
